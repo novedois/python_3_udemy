@@ -1,16 +1,15 @@
 from itertools import groupby, tee
 
-
 alunos = [ 
-    { 'nome': 'Filipe', 'nota': 'A' },
-    { 'nome': 'Letícia', 'nota': 'B' },
-    { 'nome': 'Fernanda', 'nota': 'C' },
-    { 'nome': 'Pedro', 'nota': 'D' },
-    { 'nome': 'Maurício', 'nota': 'B' },
-    { 'nome': 'Zhou', 'nota': 'D' },
-    { 'nome': 'Gasly', 'nota': 'A' },
-    { 'nome': 'Sainz', 'nota': 'C' },
-    { 'nome': 'Binotto', 'nota': 'B' },
+    { 'nome': 'Filipe',     'nota': 'A' },
+    { 'nome': 'Letícia',    'nota': 'B' },
+    { 'nome': 'Fernanda',   'nota': 'C' },
+    { 'nome': 'Pedro',      'nota': 'D' },
+    { 'nome': 'Maurício',   'nota': 'B' },
+    { 'nome': 'Zhou',       'nota': 'D' },
+    { 'nome': 'Gasly',      'nota': 'A' },
+    { 'nome': 'Sainz',      'nota': 'C' },
+    { 'nome': 'Binotto',    'nota': 'B' },
 ]
 
 # Se não ordenar, endoida tudo
